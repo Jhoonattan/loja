@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Danaymo">
+    <meta name="keywords" content="developer, website, minecraft, templates, sites gratis">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Template1 - Loja</title>
+    <link rel="stylesheet" href="assets/estilo/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/estilo/css/style.css" type="text/css">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container text-center text-white new-text">
+                <img src="assets/imagem/logo_extends.png" class="img-fluid" alt="">
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html"><i class="fa fa-fw fa-home"></i> Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="loja.html"><i class="fa fa-fw fa-diamond"></i> Loja</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="regras.html"><i class="fa fa-fw fa-book"></i> Regras</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="equipe.html"><i class="fa fa-fw fa-users"></i> Equipe</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <midle>
+        <div class="container">
+            <div class="card text-white bg-warning mb-3 text-center">
+                <div class="card-body">
+                    <p class="card-text">Para visualizar as vantagens dos VIPs, basta clicar no <i class="fa fa-fw fa-plus"></i></p>
+                </div>
+            </div>
+            <div class="row">
+                <!-- VIP Standard -->
+                <div class="col-md-3">
+                    <div class="card">
+                        <h3 class="card-header text-center text-style" onclick="Alterar('vip1')" style="cursor: pointer">
+                            <img src="assets/imagem/VIP/VIP1.png" alt=""><br>
+                            Standard
+                        </h3>
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <div class="card">
+                        <h3 class="card-header text-center text-style" onclick="Alterar('vip1')" style="cursor: pointer"><i class="fa fa-fw fa-plus"></i></h3>
+                        <div class="card-body" id="vip1" style="display: none">
+                            <ul class="pl-3">
+                                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, illum.</li>
+                                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, illum.</li>
+                                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, illum.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- VIP Medium -->
+                <div class="col-md-3">
+                    <div class="card">
+                        <h3 class="card-header text-center text-style" onclick="Alterar('vip2')" style="cursor: pointer">
+                            <img src="assets/imagem/VIP/VIP2.png" alt=""><br>
+                            Medium
+                        </h3>
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <div class="card">
+                        <h3 class="card-header text-center text-style" onclick="Alterar('vip2')" style="cursor: pointer"><i class="fa fa-fw fa-plus"></i></h3>
+                        <div class="card-body" id="vip2" style="display: none">
+                            <ul class="pl-3">
+                                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, illum.</li>
+                                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, illum.</li>
+                                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, illum.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- VIP Advanced -->
+                <div class="col-md-3">
+                    <div class="card">
+                        <h3 class="card-header text-center text-style" onclick="Alterar('vip3')" style="cursor: pointer">
+                            <img src="assets/imagem/VIP/VIP3.png" alt=""><br>
+                            Advanced
+                        </h3>
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <div class="card">
+                        <h3 class="card-header text-center text-style" onclick="Alterar('vip3')" style="cursor: pointer"><i class="fa fa-fw fa-plus"></i></h3>
+                        <div class="card-body" id="vip3" style="display: none">
+                            <ul class="pl-3">
+                                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, illum.</li>
+                                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, illum.</li>
+                                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, illum.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card text-white bg-danger mb-3 text-center">
+                <div class="card-body">
+                    <p class="card-text">Antes de adquirir qualquer produto, recomendamos que visualize os nossos <b>Termos de Compra</b></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="media">
+                        <i class="mr-2 fa fa-info-circle fa-fw fa-4x"></i>
+                        <div class="media-body">
+                            <h5 class="text-uppercase font-weight-bold">Title</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, nostrum?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="media">
+                        <i class="mr-2 fa fa-info-circle fa-fw fa-4x"></i>
+                        <div class="media-body">
+                            <h5 class="text-uppercase font-weight-bold">Title</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, nostrum?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="media">
+                        <i class="mr-2 fa fa-info-circle fa-fw fa-4x"></i>
+                        <div class="media-body">
+                            <h5 class="text-uppercase font-weight-bold">Title</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, nostrum?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="media">
+                        <i class="mr-2 fa fa-info-circle fa-fw fa-4x"></i>
+                        <div class="media-body">
+                            <h5 class="text-uppercase font-weight-bold">Title</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, nostrum?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="media">
+                        <i class="mr-2 fa fa-info-circle fa-fw fa-4x"></i>
+                        <div class="media-body">
+                            <h5 class="text-uppercase font-weight-bold">Title</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, nostrum?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="media">
+                        <i class="mr-2 fa fa-info-circle fa-fw fa-4x"></i>
+                        <div class="media-body">
+                            <h5 class="text-uppercase font-weight-bold">Title</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, nostrum?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </midle>
+    <footer>
+        <div class="container">
+            <div class="text">
+                <div class="text-center">&copy; 2018 | Meu Servidor de Minecraft <a href="http://webdanaymo.tk" target="_blank" class="pull-right"><img src="assets/imagem/danaymo.png" class="img-fluid" width="150px"></a></div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/clipboard.js/1.5.13/clipboard.min.js"></script>
+    <script src="assets/estilo/js/other.js"></script>
+
+</body>
+</html>
